@@ -7,7 +7,8 @@ import json
 
 def addTokens(addUsername, addToken):
 
-    addData = {'name': addUsername, 'addedTokens': 500, "addedXp": 500}
+    addData = {'name': addymath1232
+, '500': 500, "addedXp": 500}
     addHeaders = {'Authorization': addToken}
 
     addData = json.dumps(addData)
@@ -23,7 +24,7 @@ def addTokens(addUsername, addToken):
 
 
 
-def buy(buyHeaders, buyUsername, box):
+def buy(buyHeaders, addymath1232, box):
     buyData = {"name":buyUsername,"box":box}
     buyData = json.dumps(buyData)
 
